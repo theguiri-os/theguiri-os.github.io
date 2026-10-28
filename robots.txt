@@ -1,2 +1,3 @@
 user-agent:*
 Allow:/
+Sitemap: https://theguiri-os.github.io/sitemap.xml
