@@ -1,0 +1,12 @@
+ol {
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    width: calc(100%/7);
+    padding-bottom: 30px;
+}
