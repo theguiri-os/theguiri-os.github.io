@@ -20,7 +20,7 @@ nav>ol>li {
     text-align: center;
     color: white;
     margin: 0px;
-    width: calc(100%/7);
+    width: calc(100%/8);
     padding-bottom: 10px;
 }
 
@@ -47,17 +47,55 @@ div:nth-child(2) {
     padding-left: 10px;
 }
 
-a {
+li>a,
+h1>a {
     color: white;
     text-decoration: none;
+}
+
+td>a {
+    color: white;
 }
 
 p {
     color: white;
 }
 
-h1 {
+h1,
+h2 {
     text-align: center;
+}
+
+table,
+tr,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* table {
+    width: 100%;
+} */
+
+tr>td:nth-child(1) {
+    width: 100px;
+}
+
+tr>td:nth-child(2) {
+    width: 150px;
+}
+
+tr>td:nth-child(3) {
+    width: 1365px;
+}
+
+thead {
+    text-align: center;
+}
+
+td>img {
+    width: 100px;
 }
 
 footer {
